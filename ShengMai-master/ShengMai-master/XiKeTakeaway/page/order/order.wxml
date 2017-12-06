@@ -1,0 +1,45 @@
+<view class="container">
+
+  <view class="redwarn" wx:if="{{!noDefaultAddress}}">收货地址未填写</view>
+   <!-- 头部输入地址栏 -->
+   <view class="address" bindtap='toMyAddress'>
+      <view>
+         <view class="location">
+            <image src="/imgs/order/dingwei.png"></image>
+            <text class="chooseplace">{{defaultaddress.addressname}}</text>
+            <!-- <text class="chooseplace" wx:if>{{defaultaddress.addressname}}</text> -->
+         </view>
+         <view class="name">
+            <text>{{defaultaddress.customername}}</text>
+            <text class="phone">{{defaultaddress.phone}}</text>
+         </view>
+      </view>
+      <view class="iconfont icon-more"></view>
+   </view>
+   <!-- 点餐详单 -->
+   <scroll-view scroll-y='true'>
+      <view class="orderdetail">
+         <view class="shopname">{{thisordershop.name}} ({{thisordershop.place}})</view>
+
+         <view class="orderlistbottom">
+            <view wx:for="{{thisordercart.list}}" wx:for-index="index" wx:for-item="num" wx:key="id">
+               <view class="orderlist">
+                  <view class="goodname lightgrey">{{thisorderfoods[index].name}}</view>
+                  <view class="goodcount weakgrey">x {{num}}</view>
+                  <view class="goodprice deepgrey">￥{{thisorderfoods[index].price*thisordercart.list[index]}}</view>
+               </view>
+            </view>
+         </view>
+         <view class="expressprice">
+            <view class="lightgrey expressname">配送费</view>
+            <view class="deepgrey expressnum">￥{{thisordershop.expressprice}}</view>
+         </view>
+         <view class="waitpay deepgrey">订单￥{{thisordercart.total}}</view>
+      </view>
+	</scroll-view>
+
+   <view class="submitorder">
+      <view class="wait">待支付 <text>￥{{thisordercart.total}}</text></view>
+      <button class="submitbut" bindtap="wxpay" disabled='{{!noDefaultAddress}}'>提交订单</button>
+   </view>
+</view>

@@ -1,0 +1,51 @@
+<form bindsubmit="formSubmit">
+  <view wx:if="{{!validateInfo}}" class="validate">
+    {{warnMessage}}
+  </view>
+  <view wx:if="{{validateInfo}}" class="people">
+    联系人
+  </view>
+  <view class="message">
+    <view>
+      <text>姓名</text><input name="customername" placeholder="姓名" value="{{modifyAddress.customername}}" bindinput="setName" placeholder-style="font-size:16px;color:#999;"/>
+    </view>
+    <view>
+      <text></text>
+      <view class="choose">
+        <radio-group name="sex">
+          <label><radio value="先生" color="#ffe400" checked/>先生</label>
+          <label><radio value="女士" color="#ffe400"/>女士</label>
+        </radio-group> 
+      </view>
+    </view>
+    <view>
+      <text>手机</text><input name="phone" placeholder="手机号码" value="{{modifyAddress.phone}}" bindinput="setPhone" type="number" placeholder-style="font-size:16px;color:#999;"/>
+    </view>
+  </view>
+
+  <view class="people">
+    收货地址
+  </view>
+
+  <view class="message2">
+    <view class="iconfont icon-more" bindtap="getAddress">
+      <text class="width">地址</text>
+      <view class="map">
+        <text class="iconfont icon-map"></text>
+        <!-- <view class="width2"> {{city}}</view> -->
+        <input name="city" class="width2" value="{{city}}" disabled/>
+      </view>
+    </view>
+    <view>
+      <text class="width doornum">补充说明</text>
+      <input class="width2" name="cityDetail" placeholder="详细地址(如门牌号等)" bindinput="setCityDetail" value="{{cityDetail}}" placeholder-style="font-size:16px;color:#999;"/>
+    </view>
+  </view>
+  <!-- <view class="save" bindtap="saveAddress">
+    保存
+  </view> -->
+  <button class="save" formType="submit">保存</button>
+  <button class="reset" formType="reset">清空</button>
+</form>
+
+

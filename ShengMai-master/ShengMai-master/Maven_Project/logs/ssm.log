@@ -1,0 +1,257 @@
+[INFO] [2017-10-28 22:41:53][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/applicationContext.xml]
+[INFO] [2017-10-28 22:41:54][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-dao.xml]
+[INFO] [2017-10-28 22:41:54][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-db.xml]
+[INFO] [2017-10-28 22:41:54][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-tx.xml]
+[INFO] [2017-10-28 22:41:55][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@6d8a00e3: startup date [Sat Oct 28 22:41:55 CST 2017]; root of context hierarchy
+[INFO] [2017-10-28 22:41:55][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2017-10-28 22:41:55][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-28 22:41:58][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@6d8a00e3: startup date [Sat Oct 28 22:41:55 CST 2017]; root of context hierarchy
+[INFO] [2017-10-28 22:44:00][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/applicationContext.xml]
+[INFO] [2017-10-28 22:44:01][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-dao.xml]
+[INFO] [2017-10-28 22:44:01][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-db.xml]
+[INFO] [2017-10-28 22:44:01][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-tx.xml]
+[INFO] [2017-10-28 22:44:01][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@6d8a00e3: startup date [Sat Oct 28 22:44:01 CST 2017]; root of context hierarchy
+[INFO] [2017-10-28 22:44:01][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2017-10-28 22:44:01][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-28 22:44:04][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@6d8a00e3: startup date [Sat Oct 28 22:44:01 CST 2017]; root of context hierarchy
+[INFO] [2017-10-28 22:48:10][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/applicationContext.xml]
+[INFO] [2017-10-28 22:48:11][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-dao.xml]
+[INFO] [2017-10-28 22:48:11][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-db.xml]
+[INFO] [2017-10-28 22:48:11][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-tx.xml]
+[INFO] [2017-10-28 22:48:11][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@6d8a00e3: startup date [Sat Oct 28 22:48:11 CST 2017]; root of context hierarchy
+[INFO] [2017-10-28 22:48:12][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2017-10-28 22:48:12][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-28 22:48:14][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@6d8a00e3: startup date [Sat Oct 28 22:48:11 CST 2017]; root of context hierarchy
+[INFO] [2017-10-28 22:49:09][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/applicationContext.xml]
+[INFO] [2017-10-28 22:49:09][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-dao.xml]
+[INFO] [2017-10-28 22:49:09][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-db.xml]
+[INFO] [2017-10-28 22:49:09][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-tx.xml]
+[INFO] [2017-10-28 22:49:09][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@6d8a00e3: startup date [Sat Oct 28 22:49:09 CST 2017]; root of context hierarchy
+[INFO] [2017-10-28 22:49:10][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2017-10-28 22:49:10][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-28 22:49:12][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@6d8a00e3: startup date [Sat Oct 28 22:49:09 CST 2017]; root of context hierarchy
+[INFO] [2017-10-29 20:10:24][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/applicationContext.xml]
+[INFO] [2017-10-29 20:10:25][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-dao.xml]
+[INFO] [2017-10-29 20:10:25][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-db.xml]
+[INFO] [2017-10-29 20:10:25][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-tx.xml]
+[INFO] [2017-10-29 20:10:25][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@6d8a00e3: startup date [Sun Oct 29 20:10:25 CST 2017]; root of context hierarchy
+[INFO] [2017-10-29 20:10:26][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2017-10-29 20:10:26][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-29 20:10:31][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@6d8a00e3: startup date [Sun Oct 29 20:10:25 CST 2017]; root of context hierarchy
+[INFO] [2017-10-29 20:11:07][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/applicationContext.xml]
+[INFO] [2017-10-29 20:11:08][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-dao.xml]
+[INFO] [2017-10-29 20:11:08][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-db.xml]
+[INFO] [2017-10-29 20:11:08][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-tx.xml]
+[INFO] [2017-10-29 20:11:08][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@6d8a00e3: startup date [Sun Oct 29 20:11:08 CST 2017]; root of context hierarchy
+[INFO] [2017-10-29 20:11:08][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2017-10-29 20:11:08][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-29 20:11:10][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@6d8a00e3: startup date [Sun Oct 29 20:11:08 CST 2017]; root of context hierarchy
+[INFO] [2017-11-10 15:22:58][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/applicationContext.xml]
+[INFO] [2017-11-10 15:22:58][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-dao.xml]
+[INFO] [2017-11-10 15:22:58][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-db.xml]
+[INFO] [2017-11-10 15:22:58][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-tx.xml]
+[INFO] [2017-11-10 15:22:58][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@6cc4c815: startup date [Fri Nov 10 15:22:58 CST 2017]; root of context hierarchy
+[INFO] [2017-11-10 15:22:58][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[WARN] [2017-11-10 15:22:59][com.jolbox.bonecp.BoneCPConfig]Please use setIdleConnectionTestPeriodInMinutes in place of setIdleConnectionTestPeriod. This method has been deprecated.
+[WARN] [2017-11-10 15:22:59][com.jolbox.bonecp.BoneCPConfig]Please use setIdleMaxAgeInMinutes in place of setIdleMaxAge. This method has been deprecated.
+[INFO] [2017-11-10 15:23:00][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@6cc4c815: startup date [Fri Nov 10 15:22:58 CST 2017]; root of context hierarchy
+[INFO] [2017-11-10 15:23:00][com.jolbox.bonecp.BoneCP]Shutting down connection pool...
+[INFO] [2017-11-10 15:23:00][com.jolbox.bonecp.BoneCP]Connection pool has been shutdown.
+[INFO] [2017-11-10 15:36:15][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/applicationContext.xml]
+[INFO] [2017-11-10 15:36:15][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-dao.xml]
+[INFO] [2017-11-10 15:36:15][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-db.xml]
+[INFO] [2017-11-10 15:36:15][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-tx.xml]
+[INFO] [2017-11-10 15:36:15][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@6cc4c815: startup date [Fri Nov 10 15:36:15 CST 2017]; root of context hierarchy
+[INFO] [2017-11-10 15:36:16][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[WARN] [2017-11-10 15:36:16][com.jolbox.bonecp.BoneCPConfig]Please use setIdleConnectionTestPeriodInMinutes in place of setIdleConnectionTestPeriod. This method has been deprecated.
+[WARN] [2017-11-10 15:36:16][com.jolbox.bonecp.BoneCPConfig]Please use setIdleMaxAgeInMinutes in place of setIdleMaxAge. This method has been deprecated.
+[INFO] [2017-11-10 15:36:18][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@6cc4c815: startup date [Fri Nov 10 15:36:15 CST 2017]; root of context hierarchy
+[INFO] [2017-11-10 15:36:18][com.jolbox.bonecp.BoneCP]Shutting down connection pool...
+[INFO] [2017-11-10 15:36:18][com.jolbox.bonecp.BoneCP]Connection pool has been shutdown.
+[INFO] [2017-11-10 15:48:41][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/applicationContext.xml]
+[INFO] [2017-11-10 15:48:42][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-dao.xml]
+[INFO] [2017-11-10 15:48:42][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-db.xml]
+[INFO] [2017-11-10 15:48:42][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-tx.xml]
+[INFO] [2017-11-10 15:48:42][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@6cc4c815: startup date [Fri Nov 10 15:48:42 CST 2017]; root of context hierarchy
+[INFO] [2017-11-10 15:48:42][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[WARN] [2017-11-10 15:48:42][com.jolbox.bonecp.BoneCPConfig]Please use setIdleConnectionTestPeriodInMinutes in place of setIdleConnectionTestPeriod. This method has been deprecated.
+[WARN] [2017-11-10 15:48:42][com.jolbox.bonecp.BoneCPConfig]Please use setIdleMaxAgeInMinutes in place of setIdleMaxAge. This method has been deprecated.
+[INFO] [2017-11-10 15:48:45][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+[INFO] [2017-11-10 15:48:45][org.springframework.jdbc.support.SQLErrorCodesFactory]SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+[INFO] [2017-11-10 15:48:45][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@6cc4c815: startup date [Fri Nov 10 15:48:42 CST 2017]; root of context hierarchy
+[INFO] [2017-11-10 15:48:45][com.jolbox.bonecp.BoneCP]Shutting down connection pool...
+[INFO] [2017-11-10 15:48:45][com.jolbox.bonecp.BoneCP]Connection pool has been shutdown.
+[INFO] [2017-11-10 15:49:41][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/applicationContext.xml]
+[INFO] [2017-11-10 15:49:41][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-dao.xml]
+[INFO] [2017-11-10 15:49:41][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-db.xml]
+[INFO] [2017-11-10 15:49:41][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-tx.xml]
+[INFO] [2017-11-10 15:49:41][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@6cc4c815: startup date [Fri Nov 10 15:49:41 CST 2017]; root of context hierarchy
+[INFO] [2017-11-10 15:49:42][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[WARN] [2017-11-10 15:49:42][com.jolbox.bonecp.BoneCPConfig]Please use setIdleConnectionTestPeriodInMinutes in place of setIdleConnectionTestPeriod. This method has been deprecated.
+[WARN] [2017-11-10 15:49:42][com.jolbox.bonecp.BoneCPConfig]Please use setIdleMaxAgeInMinutes in place of setIdleMaxAge. This method has been deprecated.
+[INFO] [2017-11-10 15:49:44][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@6cc4c815: startup date [Fri Nov 10 15:49:41 CST 2017]; root of context hierarchy
+[INFO] [2017-11-10 15:49:44][com.jolbox.bonecp.BoneCP]Shutting down connection pool...
+[INFO] [2017-11-10 15:49:44][com.jolbox.bonecp.BoneCP]Connection pool has been shutdown.
+[INFO] [2017-11-10 15:52:02][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/applicationContext.xml]
+[INFO] [2017-11-10 15:52:03][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-dao.xml]
+[INFO] [2017-11-10 15:52:03][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-db.xml]
+[INFO] [2017-11-10 15:52:03][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-tx.xml]
+[INFO] [2017-11-10 15:52:03][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@6cc4c815: startup date [Fri Nov 10 15:52:03 CST 2017]; root of context hierarchy
+[INFO] [2017-11-10 15:52:03][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[WARN] [2017-11-10 15:52:03][com.jolbox.bonecp.BoneCPConfig]Please use setIdleConnectionTestPeriodInMinutes in place of setIdleConnectionTestPeriod. This method has been deprecated.
+[WARN] [2017-11-10 15:52:03][com.jolbox.bonecp.BoneCPConfig]Please use setIdleMaxAgeInMinutes in place of setIdleMaxAge. This method has been deprecated.
+[INFO] [2017-11-10 15:52:05][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@6cc4c815: startup date [Fri Nov 10 15:52:03 CST 2017]; root of context hierarchy
+[INFO] [2017-11-10 15:52:05][com.jolbox.bonecp.BoneCP]Shutting down connection pool...
+[INFO] [2017-11-10 15:52:05][com.jolbox.bonecp.BoneCP]Connection pool has been shutdown.
+[INFO] [2017-11-10 16:04:22][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/applicationContext.xml]
+[INFO] [2017-11-10 16:04:22][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-dao.xml]
+[INFO] [2017-11-10 16:04:22][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-db.xml]
+[INFO] [2017-11-10 16:04:22][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-tx.xml]
+[INFO] [2017-11-10 16:04:22][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@6cc4c815: startup date [Fri Nov 10 16:04:22 CST 2017]; root of context hierarchy
+[INFO] [2017-11-10 16:04:22][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[WARN] [2017-11-10 16:04:23][com.jolbox.bonecp.BoneCPConfig]Please use setIdleConnectionTestPeriodInMinutes in place of setIdleConnectionTestPeriod. This method has been deprecated.
+[WARN] [2017-11-10 16:04:23][com.jolbox.bonecp.BoneCPConfig]Please use setIdleMaxAgeInMinutes in place of setIdleMaxAge. This method has been deprecated.
+[INFO] [2017-11-10 16:04:25][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@6cc4c815: startup date [Fri Nov 10 16:04:22 CST 2017]; root of context hierarchy
+[INFO] [2017-11-10 16:04:25][com.jolbox.bonecp.BoneCP]Shutting down connection pool...
+[INFO] [2017-11-10 16:04:25][com.jolbox.bonecp.BoneCP]Connection pool has been shutdown.
+[INFO] [2017-11-10 16:04:52][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/applicationContext.xml]
+[INFO] [2017-11-10 16:04:52][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-dao.xml]
+[INFO] [2017-11-10 16:04:52][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-db.xml]
+[INFO] [2017-11-10 16:04:52][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-tx.xml]
+[INFO] [2017-11-10 16:04:52][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@6cc4c815: startup date [Fri Nov 10 16:04:52 CST 2017]; root of context hierarchy
+[INFO] [2017-11-10 16:04:52][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[WARN] [2017-11-10 16:04:53][com.jolbox.bonecp.BoneCPConfig]Please use setIdleConnectionTestPeriodInMinutes in place of setIdleConnectionTestPeriod. This method has been deprecated.
+[WARN] [2017-11-10 16:04:53][com.jolbox.bonecp.BoneCPConfig]Please use setIdleMaxAgeInMinutes in place of setIdleMaxAge. This method has been deprecated.
+[INFO] [2017-11-10 16:04:55][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@6cc4c815: startup date [Fri Nov 10 16:04:52 CST 2017]; root of context hierarchy
+[INFO] [2017-11-10 16:04:55][com.jolbox.bonecp.BoneCP]Shutting down connection pool...
+[INFO] [2017-11-10 16:04:55][com.jolbox.bonecp.BoneCP]Connection pool has been shutdown.
+[INFO] [2017-11-10 16:14:34][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/applicationContext.xml]
+[INFO] [2017-11-10 16:14:35][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-dao.xml]
+[INFO] [2017-11-10 16:14:35][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-db.xml]
+[INFO] [2017-11-10 16:14:35][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-tx.xml]
+[INFO] [2017-11-10 16:14:35][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@6cc4c815: startup date [Fri Nov 10 16:14:35 CST 2017]; root of context hierarchy
+[INFO] [2017-11-10 16:14:35][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[WARN] [2017-11-10 16:14:35][com.jolbox.bonecp.BoneCPConfig]Please use setIdleConnectionTestPeriodInMinutes in place of setIdleConnectionTestPeriod. This method has been deprecated.
+[WARN] [2017-11-10 16:14:35][com.jolbox.bonecp.BoneCPConfig]Please use setIdleMaxAgeInMinutes in place of setIdleMaxAge. This method has been deprecated.
+[INFO] [2017-11-10 16:14:37][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@6cc4c815: startup date [Fri Nov 10 16:14:35 CST 2017]; root of context hierarchy
+[INFO] [2017-11-10 16:14:37][com.jolbox.bonecp.BoneCP]Shutting down connection pool...
+[INFO] [2017-11-10 16:14:37][com.jolbox.bonecp.BoneCP]Connection pool has been shutdown.
+[INFO] [2017-11-10 16:20:47][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/applicationContext.xml]
+[INFO] [2017-11-10 16:20:47][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-dao.xml]
+[INFO] [2017-11-10 16:20:47][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-db.xml]
+[INFO] [2017-11-10 16:20:47][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-tx.xml]
+[INFO] [2017-11-10 16:20:47][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@6cc4c815: startup date [Fri Nov 10 16:20:47 CST 2017]; root of context hierarchy
+[INFO] [2017-11-10 16:20:48][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[WARN] [2017-11-10 16:20:48][com.jolbox.bonecp.BoneCPConfig]Please use setIdleConnectionTestPeriodInMinutes in place of setIdleConnectionTestPeriod. This method has been deprecated.
+[WARN] [2017-11-10 16:20:48][com.jolbox.bonecp.BoneCPConfig]Please use setIdleMaxAgeInMinutes in place of setIdleMaxAge. This method has been deprecated.
+[INFO] [2017-11-10 16:20:50][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@6cc4c815: startup date [Fri Nov 10 16:20:47 CST 2017]; root of context hierarchy
+[INFO] [2017-11-10 16:20:50][com.jolbox.bonecp.BoneCP]Shutting down connection pool...
+[INFO] [2017-11-10 16:20:50][com.jolbox.bonecp.BoneCP]Connection pool has been shutdown.
+[INFO] [2017-11-10 16:22:10][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/applicationContext.xml]
+[INFO] [2017-11-10 16:22:10][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-dao.xml]
+[INFO] [2017-11-10 16:22:10][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-db.xml]
+[INFO] [2017-11-10 16:22:11][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-tx.xml]
+[INFO] [2017-11-10 16:22:11][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@6cc4c815: startup date [Fri Nov 10 16:22:11 CST 2017]; root of context hierarchy
+[INFO] [2017-11-10 16:22:11][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[WARN] [2017-11-10 16:22:11][com.jolbox.bonecp.BoneCPConfig]Please use setIdleConnectionTestPeriodInMinutes in place of setIdleConnectionTestPeriod. This method has been deprecated.
+[WARN] [2017-11-10 16:22:11][com.jolbox.bonecp.BoneCPConfig]Please use setIdleMaxAgeInMinutes in place of setIdleMaxAge. This method has been deprecated.
+[INFO] [2017-11-10 16:22:14][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@6cc4c815: startup date [Fri Nov 10 16:22:11 CST 2017]; root of context hierarchy
+[INFO] [2017-11-10 16:22:14][com.jolbox.bonecp.BoneCP]Shutting down connection pool...
+[INFO] [2017-11-10 16:22:14][com.jolbox.bonecp.BoneCP]Connection pool has been shutdown.
+[INFO] [2017-11-10 16:49:40][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/applicationContext.xml]
+[INFO] [2017-11-10 16:49:41][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-dao.xml]
+[INFO] [2017-11-10 16:49:41][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-db.xml]
+[INFO] [2017-11-10 16:49:41][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-tx.xml]
+[INFO] [2017-11-10 16:49:41][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@6cc4c815: startup date [Fri Nov 10 16:49:41 CST 2017]; root of context hierarchy
+[INFO] [2017-11-10 16:49:41][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[WARN] [2017-11-10 16:49:41][com.jolbox.bonecp.BoneCPConfig]Please use setIdleConnectionTestPeriodInMinutes in place of setIdleConnectionTestPeriod. This method has been deprecated.
+[WARN] [2017-11-10 16:49:41][com.jolbox.bonecp.BoneCPConfig]Please use setIdleMaxAgeInMinutes in place of setIdleMaxAge. This method has been deprecated.
+[INFO] [2017-11-10 16:49:44][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@6cc4c815: startup date [Fri Nov 10 16:49:41 CST 2017]; root of context hierarchy
+[INFO] [2017-11-10 16:49:44][com.jolbox.bonecp.BoneCP]Shutting down connection pool...
+[INFO] [2017-11-10 16:49:44][com.jolbox.bonecp.BoneCP]Connection pool has been shutdown.
+[INFO] [2017-11-11 18:49:24][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/applicationContext.xml]
+[INFO] [2017-11-11 18:49:25][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-dao.xml]
+[INFO] [2017-11-11 18:49:25][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-db.xml]
+[INFO] [2017-11-11 18:49:25][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-tx.xml]
+[INFO] [2017-11-11 18:49:25][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@6cc4c815: startup date [Sat Nov 11 18:49:25 CST 2017]; root of context hierarchy
+[INFO] [2017-11-11 18:49:25][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[WARN] [2017-11-11 18:49:25][com.jolbox.bonecp.BoneCPConfig]Please use setIdleConnectionTestPeriodInMinutes in place of setIdleConnectionTestPeriod. This method has been deprecated.
+[WARN] [2017-11-11 18:49:25][com.jolbox.bonecp.BoneCPConfig]Please use setIdleMaxAgeInMinutes in place of setIdleMaxAge. This method has been deprecated.
+[INFO] [2017-11-11 18:49:29][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@6cc4c815: startup date [Sat Nov 11 18:49:25 CST 2017]; root of context hierarchy
+[INFO] [2017-11-11 18:49:29][com.jolbox.bonecp.BoneCP]Shutting down connection pool...
+[INFO] [2017-11-11 18:49:29][com.jolbox.bonecp.BoneCP]Connection pool has been shutdown.
+[INFO] [2017-11-11 19:23:01][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/applicationContext.xml]
+[INFO] [2017-11-11 19:23:01][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-dao.xml]
+[INFO] [2017-11-11 19:23:01][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-db.xml]
+[INFO] [2017-11-11 19:23:01][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-tx.xml]
+[INFO] [2017-11-11 19:23:01][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@6cc4c815: startup date [Sat Nov 11 19:23:01 CST 2017]; root of context hierarchy
+[INFO] [2017-11-11 19:23:02][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[WARN] [2017-11-11 19:23:02][com.jolbox.bonecp.BoneCPConfig]Please use setIdleConnectionTestPeriodInMinutes in place of setIdleConnectionTestPeriod. This method has been deprecated.
+[WARN] [2017-11-11 19:23:02][com.jolbox.bonecp.BoneCPConfig]Please use setIdleMaxAgeInMinutes in place of setIdleMaxAge. This method has been deprecated.
+[INFO] [2017-11-11 19:23:05][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@6cc4c815: startup date [Sat Nov 11 19:23:01 CST 2017]; root of context hierarchy
+[INFO] [2017-11-11 19:23:05][com.jolbox.bonecp.BoneCP]Shutting down connection pool...
+[INFO] [2017-11-11 19:23:05][com.jolbox.bonecp.BoneCP]Connection pool has been shutdown.
+[INFO] [2017-11-11 22:10:21][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/applicationContext.xml]
+[INFO] [2017-11-11 22:10:22][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-dao.xml]
+[INFO] [2017-11-11 22:10:22][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-db.xml]
+[INFO] [2017-11-11 22:10:22][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-tx.xml]
+[INFO] [2017-11-11 22:10:22][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@6cc4c815: startup date [Sat Nov 11 22:10:22 CST 2017]; root of context hierarchy
+[INFO] [2017-11-11 22:10:22][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[WARN] [2017-11-11 22:10:22][com.jolbox.bonecp.BoneCPConfig]Please use setIdleConnectionTestPeriodInMinutes in place of setIdleConnectionTestPeriod. This method has been deprecated.
+[WARN] [2017-11-11 22:10:22][com.jolbox.bonecp.BoneCPConfig]Please use setIdleMaxAgeInMinutes in place of setIdleMaxAge. This method has been deprecated.
+[INFO] [2017-11-11 22:10:26][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@6cc4c815: startup date [Sat Nov 11 22:10:22 CST 2017]; root of context hierarchy
+[INFO] [2017-11-11 22:10:26][com.jolbox.bonecp.BoneCP]Shutting down connection pool...
+[INFO] [2017-11-11 22:10:26][com.jolbox.bonecp.BoneCP]Connection pool has been shutdown.
+[INFO] [2017-11-11 22:18:49][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/applicationContext.xml]
+[INFO] [2017-11-11 22:18:49][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-dao.xml]
+[INFO] [2017-11-11 22:18:49][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-db.xml]
+[INFO] [2017-11-11 22:18:50][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-tx.xml]
+[INFO] [2017-11-11 22:18:50][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@6cc4c815: startup date [Sat Nov 11 22:18:50 CST 2017]; root of context hierarchy
+[INFO] [2017-11-11 22:18:50][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[WARN] [2017-11-11 22:18:50][com.jolbox.bonecp.BoneCPConfig]Please use setIdleConnectionTestPeriodInMinutes in place of setIdleConnectionTestPeriod. This method has been deprecated.
+[WARN] [2017-11-11 22:18:50][com.jolbox.bonecp.BoneCPConfig]Please use setIdleMaxAgeInMinutes in place of setIdleMaxAge. This method has been deprecated.
+[INFO] [2017-11-11 22:18:54][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@6cc4c815: startup date [Sat Nov 11 22:18:50 CST 2017]; root of context hierarchy
+[INFO] [2017-11-11 22:18:54][com.jolbox.bonecp.BoneCP]Shutting down connection pool...
+[INFO] [2017-11-11 22:18:54][com.jolbox.bonecp.BoneCP]Connection pool has been shutdown.
+[INFO] [2017-11-16 08:44:48][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/applicationContext.xml]
+[INFO] [2017-11-16 08:44:49][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-dao.xml]
+[INFO] [2017-11-16 08:44:49][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-db.xml]
+[INFO] [2017-11-16 08:44:49][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-tx.xml]
+[INFO] [2017-11-16 08:44:49][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@9629756: startup date [Thu Nov 16 08:44:49 CST 2017]; root of context hierarchy
+[INFO] [2017-11-16 08:44:49][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[WARN] [2017-11-16 08:44:49][com.jolbox.bonecp.BoneCPConfig]Please use setIdleConnectionTestPeriodInMinutes in place of setIdleConnectionTestPeriod. This method has been deprecated.
+[WARN] [2017-11-16 08:44:49][com.jolbox.bonecp.BoneCPConfig]Please use setIdleMaxAgeInMinutes in place of setIdleMaxAge. This method has been deprecated.
+[INFO] [2017-11-16 08:44:52][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@9629756: startup date [Thu Nov 16 08:44:49 CST 2017]; root of context hierarchy
+[INFO] [2017-11-16 08:44:52][com.jolbox.bonecp.BoneCP]Shutting down connection pool...
+[INFO] [2017-11-16 08:44:52][com.jolbox.bonecp.BoneCP]Connection pool has been shutdown.
+[INFO] [2017-11-16 08:47:23][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/applicationContext.xml]
+[INFO] [2017-11-16 08:47:24][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-dao.xml]
+[INFO] [2017-11-16 08:47:24][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-db.xml]
+[INFO] [2017-11-16 08:47:24][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-tx.xml]
+[INFO] [2017-11-16 08:47:24][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@9629756: startup date [Thu Nov 16 08:47:24 CST 2017]; root of context hierarchy
+[INFO] [2017-11-16 08:47:24][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[WARN] [2017-11-16 08:47:25][com.jolbox.bonecp.BoneCPConfig]Please use setIdleConnectionTestPeriodInMinutes in place of setIdleConnectionTestPeriod. This method has been deprecated.
+[WARN] [2017-11-16 08:47:25][com.jolbox.bonecp.BoneCPConfig]Please use setIdleMaxAgeInMinutes in place of setIdleMaxAge. This method has been deprecated.
+[INFO] [2017-11-16 08:47:28][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@9629756: startup date [Thu Nov 16 08:47:24 CST 2017]; root of context hierarchy
+[INFO] [2017-11-16 08:47:28][com.jolbox.bonecp.BoneCP]Shutting down connection pool...
+[INFO] [2017-11-16 08:47:28][com.jolbox.bonecp.BoneCP]Connection pool has been shutdown.
+[INFO] [2017-11-16 08:47:47][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/applicationContext.xml]
+[INFO] [2017-11-16 08:47:48][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-dao.xml]
+[INFO] [2017-11-16 08:47:48][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-db.xml]
+[INFO] [2017-11-16 08:47:48][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-tx.xml]
+[INFO] [2017-11-16 08:47:48][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@9629756: startup date [Thu Nov 16 08:47:48 CST 2017]; root of context hierarchy
+[INFO] [2017-11-16 08:47:48][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[WARN] [2017-11-16 08:47:48][com.jolbox.bonecp.BoneCPConfig]Please use setIdleConnectionTestPeriodInMinutes in place of setIdleConnectionTestPeriod. This method has been deprecated.
+[WARN] [2017-11-16 08:47:48][com.jolbox.bonecp.BoneCPConfig]Please use setIdleMaxAgeInMinutes in place of setIdleMaxAge. This method has been deprecated.
+[INFO] [2017-11-16 08:47:51][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@9629756: startup date [Thu Nov 16 08:47:48 CST 2017]; root of context hierarchy
+[INFO] [2017-11-16 08:47:51][com.jolbox.bonecp.BoneCP]Shutting down connection pool...
+[INFO] [2017-11-16 08:47:51][com.jolbox.bonecp.BoneCP]Connection pool has been shutdown.
+[INFO] [2017-11-21 16:08:17][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/applicationContext.xml]
+[INFO] [2017-11-21 16:08:17][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-dao.xml]
+[INFO] [2017-11-21 16:08:17][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-db.xml]
+[INFO] [2017-11-21 16:08:17][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/D:/Application/develop/Workspaces/MyEclipse%202016%20CI/Maven_Project/target/classes/spring-tx.xml]
+[INFO] [2017-11-21 16:08:17][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@6d00a15d: startup date [Tue Nov 21 16:08:17 CST 2017]; root of context hierarchy
+[INFO] [2017-11-21 16:08:17][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[WARN] [2017-11-21 16:08:18][com.jolbox.bonecp.BoneCPConfig]Please use setIdleConnectionTestPeriodInMinutes in place of setIdleConnectionTestPeriod. This method has been deprecated.
+[WARN] [2017-11-21 16:08:18][com.jolbox.bonecp.BoneCPConfig]Please use setIdleMaxAgeInMinutes in place of setIdleMaxAge. This method has been deprecated.
+[INFO] [2017-11-21 16:08:18][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@6d00a15d: startup date [Tue Nov 21 16:08:17 CST 2017]; root of context hierarchy

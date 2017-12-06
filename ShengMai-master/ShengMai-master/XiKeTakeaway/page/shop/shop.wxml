@@ -1,0 +1,89 @@
+<view class="container">
+	<view class="header {{scrollDown?'hidden':''}}">
+		<image class="logo" src="{{shop.logo}}"/>
+		<view class="name ellipsis">{{shop.name}}</view>
+		<view class="welcome ellipsis">公告：欢迎光临{{shop.name}}！</view>
+		<view class="follow" bindtap="follow">{{followed?'已收藏':'收藏'}}</view>
+		<view class="line"></view>
+		<!-- 商户活动 -->
+		<view class="desc">本店消费满{{shop.startprice}}元起送,配送费{{shop.expressprice}}元</view>
+	</view>
+
+  <!-- 点菜、商家选项 -->
+  <view class="P_title">
+    <view class="{{orderOrBusiness=='order'?'P_order P_active':'P_order'}}" bindtap="tabChange" data-id="order">
+      点菜
+    </view>
+    <view class="{{orderOrBusiness=='business'?'P_business P_active':'P_business'}}"  bindtap="tabChange" data-id="business">
+      商家
+    </view>
+  </view>
+
+	<!-- 菜品总览 -->
+	<view class="content-container" wx:if="{{orderOrBusiness=='order'}}">
+		<!-- 右侧菜品列表 -->
+		<scroll-view class="goods-container" scroll-y="true" scroll-into-view="{{classifyViewed}}" >
+			<view wx:for="{{goods}}" wx:for-item="good" wx:key="goodid" wx:for-index="goodindex" id="{{classify.goodtypeid}}">
+				<!-- <view class="title">{{classify.goodtypename}}</view> -->
+				  <view class="goods" >  
+					<image class="pic" src="{{good.pic}}"></image>
+					<view class="name ellipsis">{{good.name}}</view>
+					<view class="sold">月售{{good.sold}}</view>
+					<view class="price">￥{{good.price}}</view>
+					<view class="addCart" bindtap="tapAddCart" data-id="{{goodindex}}">
+						<image src="/imgs/shop/plus.png"></image>
+					</view>
+				 </view> 
+			</view>
+		</scroll-view>
+	</view>
+
+  <!-- 商家信息 -->
+  <view class="P_business_P" wx:if="{{orderOrBusiness=='business'}}">
+    <view class="S_top">
+      <view class="S_title">
+        商家信息
+      </view>
+      <view class="iconfont icon-map">{{shop.name}}{{shop.place}}</view>
+      <view class="iconfont icon-time2">配送时间：07:00-20:00</view>
+      <view class="iconfont icon-phone" bindtap='makecall' data-id='{{shop.tel}}'><text class="shoptel">联系商家  {{shop.tel}}</text></view>
+      <view class="iconfont icon-money">¥10元起送｜配送费¥3</view>
+    </view>
+    <view class="S_top">
+      <view class="S_title">
+        店内活动
+      </view>
+      <view class="iconfont icon-zhekou">满22减17；满50减33（在线支付专享）</view>
+      <view class="iconfont icon-zhekou">折扣商品2.6折起（在线支付专享)</view>
+      <view class="iconfont icon-zhekou">部分商品第二份半价</view>
+    </view>
+  </view>
+
+	<!-- 底部购物车 -->
+	<view class="cart-detail" hidden="{{!showCartDetail||!cart.count}}">
+		<view class="mask" bindtap="hideCartDetail"></view>
+		<!-- 购物车中的菜品列表 -->
+		<view class="list">
+			<view class="item" wx:for="{{cart.list}}" wx:for-index="index" wx:for-item="num" wx:key="id">
+				<view class="name ellipsis">{{goods[index].name}}</view>
+				<view class="total">￥{{goods[index].price*cart.list[index]}}</view>
+				<view class="reduce" data-id="{{index}}" bindtap="tapReduceCart">-</view>
+				<view class="num">{{num}}</view>
+				<view class="add" data-id="{{index}}" bindtap="tapAddCart">+</view>
+			</view>
+		</view>
+	</view>
+	<!-- 购物车底部按键栏 -->
+	<view class="cart">
+		<!-- 按键栏左侧 -->
+		<view class="data" bindtap="showCartDetail">
+			<view class="icon">
+				<image src="/imgs/shop/cart.png"></image>
+				<view class="count">{{cart.count}}</view>
+			</view>
+			<view class="total">￥{{cart.total}} <text class="aftertotal">含配送费{{shop.expressprice}}元</text></view>
+		</view>
+		<!-- 按键栏右侧 -->
+			<button class="yellow {{(cart.total-shop.expressprice)>=shop.startprice?'':'disabled'}}" disabled="{{!(cart.total-shop.expressprice)>=shop.startprice}}" bindtap='go_order'>去结算</button>
+	</view>
+</view>

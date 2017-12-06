@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans  
+                        http://www.springframework.org/schema/beans/spring-beans-3.1.xsd  
+                        http://www.springframework.org/schema/context  
+                        http://www.springframework.org/schema/context/spring-context-3.1.xsd  
+                        http://www.springframework.org/schema/mvc  
+                        http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd">
+
+	<!-- 引入配置文件 -->
+	<!-- <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="location" value="classpath:jdbc.properties" />
+	</bean> -->
+	
+	<!-- <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+		<property name="driverClassName" value="${jdbc_driver}" />
+		<property name="url" value="${jdbc_url}" />
+		<property name="username" value="${jdbc_username}" />
+		<property name="password" value="${jdbc_password}" />
+		初始化连接大小
+		<property name="initialSize" value="${jdbc_initialSize}"></property>
+		连接池最大数量
+		<property name="maxActive" value="${jdbc_maxActive}"></property>
+		连接池最大空闲
+		<property name="maxIdle" value="${jdbc_maxIdle}"></property>
+		连接池最小空闲
+		<property name="minIdle" value="${jdbc_minIdle}"></property>
+		获取连接最大等待时间
+		<property name="maxWait" value="${jdbc_maxWait}"></property>
+		testOnBorrow true 指明是否在从池中取出连接前进行检验,如果检验失败,则从池中去除连接并尝试取出另一个.
+		<property name="testOnBorrow">  
+            <value>true</value>  
+        </property>
+        该选项用来验证数据库连接的有效性  
+        <property name="validationQuery">  
+            <value>SELECT 1 </value>  
+        </property>
+	</bean> -->
+	
+<!--	 bonecp数据库连接池dataSource -->
+	<bean id="dataSource" class="com.jolbox.bonecp.BoneCPDataSource" destroy-method="close">
+		<property name="driverClass" value="com.mysql.jdbc.Driver"/>
+		<property name="jdbcUrl" value="jdbc:mysql://localhost:3306/waimai?useUnicode=true&amp;characterEncoding=UTF-8"/>
+		<property name="username" value="root" />
+		<property name="password" value="root" />
+<!--		 检查数据库连接池中空闲连接的间隔时间，单位是分，默认值：240，如果要取消则设置为0 -->
+		<property name="idleConnectionTestPeriod" value="60" />
+<!--		 连接池中未使用的连接最大存活时间，单位分，默认60，如果要永远存活设置为0 -->
+		<property name="idleMaxAge" value="240" />
+<!--		 每个分区最大的连接数 -->
+		<property name="maxConnectionsPerPartition" value="30" />
+<!--		 每个分区最小连接数 -->
+		<property name="minConnectionsPerPartition" value="10" />
+<!--		 分区数，默认值2，最小1，推荐3-4，视应用而定 -->
+		<property name="partitionCount" value="3" />
+<!--		 每次去拿数据库连接的时候一次性要拿几个，默认值：2 -->
+		<property name="acquireIncrement" value="5" />
+<!--		 缓存prepared statements的大小，默认值：0 -->
+		<property name="statementsCacheSize" value="100" />
+<!--		 每个分区释放连接助理进程的数量，默认值：3，除非你的一个数据库连接的时间内做了很多工作，不然过多的助理进程会影响你的性能 -->
+		<property name="releaseHelperThreads" value="3" />
+	</bean>
+	
+
+	<!-- spring和MyBatis完美整合，不需要mybatis的配置映射文件 -->
+	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<!-- 自动扫描mapping.xml文件 -->
+		<property name="mapperLocations" value="classpath:com/chillax/mapper/*.xml"></property>
+	</bean>
+	
+</beans>

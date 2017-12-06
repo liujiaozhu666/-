@@ -1,0 +1,62 @@
+<view class="container page3">
+  <view class="allOrder">
+  <!--遍历订单数据集开始  -->
+    <view wx:for="{{orderdetail}}" wx:for-item='order' wx:for-index='orderArrayIndex' wx:key='orderdetailid'>
+      <view>
+        
+        <view class="allTitle" bindtap='toDetail' data-orderinfo="{{order}}">
+          <text>{{order.shopname}}</text>
+          <text class="iconfont icon-more" >{{order.orderdetailstate}}</text>
+        </view>
+        
+        <view class="allMessage" >
+        <!--遍历单个订单中菜品开始  -->
+          <view wx:for='{{ordergoods[orderArrayIndex]}}' wx:for-item='good' wx:key='id'>
+            <view class="allType">
+              <text class="order_name">{{good.foodName}}</text><text class='count'>X{{good.foodCount}}</text><text class="price">¥{{good.foodSum}}</text>
+            </view>
+          </view>
+          
+        <!--遍历单个订单中菜品结束  -->  
+          <view class="allLast">
+            <view wx:if="{{order.orderdetailstate == '订单已完成'}}">
+              实付：<text class="price">{{order.orderdetailsum}}元</text>
+            </view>
+            <view wx:if="{{order.orderdetailstate == '等待支付'}}">
+              应付：<text class="price">{{order.orderdetailsum}}元</text>
+            </view>
+            <view wx:if="{{order.orderdetailstate == '订单已取消'}}">
+              实付：<text class="price">0元</text>
+            </view>
+            <view wx:if='{{order.orderdetailstate == "等待支付"}}'>
+              <view class="firstview" hover-class="navigator-hover" bindtap='cancelorder' data-cancelinfo="{{order}}">取消订单</view>
+              <view hover-class="navigator-hover" class="bg_y firstview" bindtap='pay' data-orderdetail="{{order}}">立即付款</view>
+            </view>
+            <view wx:if='{{order.orderdetailstate == "订单已完成"}}'>
+              <navigator hover-class="navigator-hover" class="bg_w"></navigator>
+              <view hover-class="navigator-hover" class="bg_y firstview">评价</view>
+            </view>
+            <view wx:if='{{order.orderdetailstate == "订单已取消"}}'>
+              <navigator hover-class="navigator-hover" class="cancelNav"></navigator>
+               <navigator hover-class="navigator-hover" class="bg_w"></navigator>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  <!--遍历订单数据集结束  -->  
+
+  </view>
+  <!--确认收货  -->
+  <view class="orderOk" wx:if="{{orderOk==true}}">
+    <view class="okMessage">
+      <view class="tip">提示</view>
+      <view class="shouhuo">是否确认收货？</view>
+      <view class="yesorno">
+        <view class="okCancel" bindtap="okCancel">否</view>
+        <view class="okOk" bindtap="okOk">是</view>
+      </view>
+    </view>
+  </view>  
+  <view class="padding"></view>
+</view>

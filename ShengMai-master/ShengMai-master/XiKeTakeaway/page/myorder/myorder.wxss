@@ -1,0 +1,135 @@
+/**myorder.wxss**/
+/*order  */
+.page3 .allOrder {
+  padding: 0 40rpx;
+}
+.page3 .allTitle {
+  display: flex;
+  justify-content: space-between;
+  background: #fafafa;
+  padding: 20rpx 40rpx;
+}
+.page3 .allTitle:nth-child(1) {
+  margin-top: 20rpx;
+}
+.page3 .allTitle .ing {
+  color: #399ce6;
+  font-size: 36rpx;
+}
+.page3 .allMessage {
+  margin-bottom: 40rpx;
+  background: white; 
+  padding: 20rpx 0;
+}
+.page3 .allType {
+  display: flex;
+  line-height: 60rpx;
+  padding: 0 40rpx;
+  justify-content: space-between;
+}
+.page3 .allType text:nth-child(2) {
+  color: #999;
+  font-size: 28rpx;
+}
+.page3 .allLast {
+  padding: 20rpx 0 10rpx;
+  clear: both;
+  border-top: 2rpx solid #f2f2f2;
+}
+.page3 button {
+  line-height: 2!important;
+}
+.page3 .allLast {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #999;
+  font-size: 28rpx;
+}
+.page3 .price {
+  font-size: 40rpx;
+  width:80rpx;
+}
+.page3 .count{
+  width:80rpx;
+}
+.page3 .allLast navigator {
+  color: #333;
+  width: 140rpx;
+  text-align: center;
+  display: inline-block;
+  border: 2rpx #ddd solid;
+  padding: 14rpx 10rpx;
+  border-radius: 6rpx;
+}
+.page3 .allLast .firstview{
+  color: #333;
+  width: 140rpx;
+  text-align: center;
+  display: inline-block;
+  border: 2rpx #ddd solid;
+  padding: 14rpx 10rpx;
+  border-radius: 6rpx;
+}
+.page3 .allLast .cancelNav{
+  color: #333;
+  width: 140rpx;
+  text-align: center;
+  display: inline-block;
+  border: 2rpx #fff solid;
+  padding: 14rpx 10rpx;
+  border-radius: 6rpx;
+}
+.page3 .allLast .bg_y {
+  background: #ffe400;
+  border: 2rpx #ffe400 solid;
+  margin-left: 20rpx;
+}
+.page3 .allLast .bg_w {
+  background: #ffffff;
+  border: 2rpx #fff solid;
+  margin-left: 20rpx;
+}
+.page3 .orderOk {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999999999;
+  background: rgba(0,0,0,.2);
+}
+.page3 .okMessage {
+  width: 90%;
+  background: white;
+  border-radius: 12rpx;
+  margin-left: 5%;
+  margin-top: 40%;
+  text-align: center;
+}
+.page3 .tip,.shouhuo {
+  padding: 80rpx 0 0;
+  text-align: center;
+}
+.shouhuo {
+  padding: 40rpx 0 80rpx;
+}
+.yesorno {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2rpx #ddd solid;
+}
+.okCancel,.okOk {
+  width: 50%;
+  padding: 30rpx 0;
+}
+.okOk {
+  border-left: 2rpx #ddd solid;
+  background: #333;
+  color: white;
+  border-radius: 0 0 12rpx 0;
+}
+.page3 .order_name {
+  display: inline-block;
+  width: 400rpx;
+}

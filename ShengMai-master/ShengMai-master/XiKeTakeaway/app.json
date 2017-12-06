@@ -1,0 +1,48 @@
+{
+	"pages": [
+    "page/index/index",
+    "page/order/order",
+    "page/addAddress/addAddress",
+    "page/updateAddress/updateAddress",
+    "page/address/address",
+		"page/shop/shop",
+    "page/myorder/myorder",
+		"page/mine/mine",
+    "page/orderDetail/orderDetail"
+	],
+	"window": {
+		"navigationBarBackgroundColor": "#FEB70F",
+		"navigationBarTextStyle": "white",
+		"backgroundColor": "#efefef",
+		"backgroundTextStyle": "dark",
+		"navigationBarTitleText": "秦岭圣麦",
+    "enablePullDownRefresh":true
+	},
+	"tabBar": {
+		"color": "#878787",
+		"selectedColor": "#000",
+		"borderStyle": "black",
+		"backgroundColor": "#fcfcfc",
+		"list": [
+			{
+				"pagePath": "page/index/index",
+				"iconPath": "imgs/tabBar/home_2.png",
+				"selectedIconPath": "imgs/tabBar/home_1.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "page/mine/mine",
+				"iconPath": "imgs/tabBar/mine_2.png",
+				"selectedIconPath": "imgs/tabBar/mine_1.png",
+				"text": "我的"
+			}
+		]
+	},
+	"networkTimeout": {
+		"request": 10000,
+		"connectSocket": 10000,
+		"uploadFile": 10000,
+		"downloadFile": 10000
+	},
+	"debug": true
+}
